@@ -1,25 +1,22 @@
 /**
- * angular-sofa-zippy - v0.1.0 - 2014-11-17
+ * angular-sofa-zippy - v0.1.0 - Thu Dec 11 2014 13:16:34 GMT+0100 (CET)
  * http://www.sofa.io
  *
  * Copyright (c) 2014 CouchCommerce GmbH (http://www.couchcommerce.com / http://www.sofa.io) and other contributors
- * THIS SOFTWARE CONTAINS COMPONENTS OF THE SOFA.IO COUCHCOMMERCE SDK (WWW.SOFA.IO).
+ * THIS SOFTWARE CONTAINS COMPONENTS OF THE SOFA.IO COUCHCOMMERCE SDK (WWW.SOFA.IO)
  * IT IS PROVIDED UNDER THE LICENSE TERMS OF THE ATTACHED LICENSE.TXT.
  */
 ;(function (angular) {
-
-angular.module('sofa.zippy.templates', ['sofa-zippy.tpl.html']);
-
-angular.module("sofa-zippy.tpl.html", []).run(["$templateCache", function($templateCache) {
-  $templateCache.put("sofa-zippy.tpl.html",
-    "<div class=\"sofa-zippy\">\n" +
-    "    <div class=\"sofa-zippy__caption\">\n" +
-    "        <span ng-bind=\"caption\"></span>\n" +
-    "        <i class=\"sofa-zippy-icon\"></i>\n" +
-    "    </div>\n" +
-    "    <div class=\"sofa-zippy__content\" ng-transclude></div>\n" +
-    "</div>\n" +
-    "");
+angular.module('sofa-zippy.tpl.html', []).run(['$templateCache', function($templateCache) {
+  $templateCache.put('sofa-zippy.tpl.html',
+    '<div class="sofa-zippy">\n' +
+    '    <div class="sofa-zippy__caption">\n' +
+    '        <span ng-bind="caption"></span>\n' +
+    '        <i class="sofa-zippy-icon"></i>\n' +
+    '    </div>\n' +
+    '    <div class="sofa-zippy__content" ng-transclude></div>\n' +
+    '</div>\n' +
+    '');
 }]);
 
 angular.module('sofa.zippy', [
@@ -74,5 +71,4 @@ angular.module('sofa.zippy').directive('sofaZippy', function () {
         }
     };
 });
-
 }(angular));

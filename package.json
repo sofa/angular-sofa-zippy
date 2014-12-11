@@ -1,6 +1,6 @@
 {
   "name": "angular-sofa-zippy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sofa Web SDK Angular Zippy component.",
   "main": "dist/sofa.zippy.js",
   "homepage": "http://www.sofa.io",
