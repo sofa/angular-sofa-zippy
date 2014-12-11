@@ -11,3 +11,4 @@ app/css/*
 sdk/test/unit/index.html
 node_modules
 src/**/*.templates.js
+src/**/*.tpl.js
