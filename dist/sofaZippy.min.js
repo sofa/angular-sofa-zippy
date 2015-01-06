@@ -1,5 +1,5 @@
 /**
- * angular-sofa-zippy - v0.1.0 - Thu Dec 11 2014 13:16:34 GMT+0100 (CET)
+ * angular-sofa-zippy - v0.1.1 - Tue Jan 06 2015 15:58:43 GMT+0100 (CET)
  * http://www.sofa.io
  *
  * Copyright (c) 2014 CouchCommerce GmbH (http://www.couchcommerce.com / http://www.sofa.io) and other contributors
