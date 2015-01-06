@@ -6,7 +6,7 @@
         "Pascal Precht <pascal@couchcommerce.com>"
     ],
     "description": "Sofa Web SDK Angular Zippy component",
-    "main": "dist/sofa.zippy.js",
+    "main": "dist/sofaZippy.js",
     "keywords": [
         "sofa",
         "sofa.io",

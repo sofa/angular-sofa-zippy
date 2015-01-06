@@ -2,7 +2,7 @@
   "name": "angular-sofa-zippy",
   "version": "0.1.1",
   "description": "Sofa Web SDK Angular Zippy component.",
-  "main": "dist/sofa.zippy.js",
+  "main": "dist/sofaZippy.js",
   "homepage": "http://www.sofa.io",
   "scripts": {
     "test": "gulp build"
@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "gulp": "^3.8.10",
-    "shared-sofa-component-tasks": "^0.2.1"
+    "shared-sofa-component-tasks": "^0.4.0"
   }
 }
